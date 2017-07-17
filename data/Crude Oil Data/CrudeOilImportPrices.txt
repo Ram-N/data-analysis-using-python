@@ -1,0 +1,18 @@
+File: CrudeOilImportPrices.csv
+Notes: 
+Crude oil import prices come from the IEA's Crude Oil Import Register 
+and are influenced not only by traditional movements of supply and 
+demand, but also by other factors such as geopolitics. Information 
+is collected from national agencies according to the type of crude 
+oil, by geographic origin and by quality of crude. Average prices 
+are obtained by dividing value by volume as recorded by customs 
+administrations for each tariff position. Values are recorded at 
+the time of import and include cost, insurance and freight, but 
+exclude import duties. The nominal crude oil spot price from 2003 
+to 2011 is for Dubai and from 1970 to 2002 for Arabian Light. This 
+indicator is measured in USD per barrel of oil. The real price was 
+calculated using the deflator for GDP at market prices and rebased 
+with reference year 1970 = 100.
+
+Source: https://data.oecd.org/energy/crude-oil-import-prices.htm#indicator-chart
+Important Note: The data contains a mix of Annual, Monthly and Quarterly data.
