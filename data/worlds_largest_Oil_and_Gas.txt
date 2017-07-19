@@ -1,0 +1,193 @@
+==Global largest oil and gas companies==
+| Country
+| Company name
+| Revenue 2015 (US$ billion)
+|-
+| Saudi Arabia 
+|  Saudi Aramco 
+| 478.00
+|-
+| China  
+|  Sinopec 
+| 454.99
+|-
+| China  
+|  China National Petroleum Corporation 
+| 428.62
+|-
+| China  
+|  PetroChina 
+| 367.982
+|-
+|United States 
+|  Exxon Mobil 
+| 268.9
+|-
+| Netherlands  United Kingdom 
+|  Royal Dutch Shell 
+| 265
+|-
+| Kuwait 
+|  Kuwait Petroleum Corporation 
+| 251.94
+|-
+| United Kingdom 
+|  BP 
+| 222.8
+|-
+| France 
+|  Total SA 
+| 212
+|-
+| Russia 
+|  Lukoil 
+| 144.17
+|-
+| Italy 
+|  Eni 
+| 131.82
+|-
+| United States 
+|  Valero Energy 
+| 130.84
+|-
+| Brazil 
+|  Petrobras 
+| ''130.00*''
+|- 
+|United States 
+|  Chevron Corporation 
+| 129.9
+|- 
+| Venezuela 
+|  PDVSA 
+| 128.44
+|-
+| Mexico 
+|  Pemex 
+| 117.50
+|-
+| Iran 
+|  National Iranian Oil Company 
+| ''110.00**''
+|-
+|Russia 
+|  Gazprom 
+| 106.3
+|-
+| Malaysia 
+|  Petronas 
+| 100.74
+|-
+| China 
+|  China National Offshore Oil 
+| 98.53
+|-
+|United States 
+|  Marathon Petroleum 
+| 97.81
+|-
+| Thailand 
+|  PTT Public Company Limited|PTT 
+| 93.55
+|-
+| Russia 
+|  Rosneft 
+| 91.72
+|-
+| Japan 
+|  JX Holdings 
+| 90.67
+|-
+| France 
+|  Engie 
+| 89.64
+|-
+| Norway 
+|  Statoil 
+| 82.48
+|-
+| India 
+|  Indian Oil Corporation 
+| 81.55
+|- 
+| Algeria 
+|  Sonatrach 
+| ''76.10**''
+|- 
+| India 
+|  Reliance Industries 
+| 73.10
+|-
+|Indonesia 
+|  Pertamina 
+| 70.65
+|-
+| United States 
+|  Conoco Phillips 
+| 55.52
+|-
+| South Korea 
+|  GS Caltex 
+| 50.26
+|-
+| United States 
+|  Enterprise Products 
+| 47.95
+|-
+| Spain 
+|  Repsol 
+| 47.29
+|-
+|United Kingdom 
+|  Centrica 
+| 45.29
+|-
+|India 
+|  Bharat Petroleum 
+| 43.46
+|-
+| Austria 
+|  OMV Group 
+| 43.09
+|-
+| Azerbaijan 
+|  SOCAR 
+| 39.70
+|-
+| Japan 
+|  Idemitsu Kosan 
+| 38.58
+|-
+| India 
+|  Hindustan Petroleum 
+| 37.85
+|-
+| Poland 
+|  PKN Orlen 
+| 36.1
+|-
+| France 
+|   Schlumberger 
+| 35.47
+|-
+| Canada 
+|  Suncor Energy 
+| 34.66
+|-
+| Greece 
+|  Hellenic Petroleum 
+| 31.28
+|-
+| Greece 
+|  Motor Oil Hellas 
+| 28.98
+|-
+| Colombia 
+|  Ecopetrol 
+| 26.99
+|-
+| Spain 
+|  CEPSA 
+| 26.90
+|-
