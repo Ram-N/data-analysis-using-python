@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Markdown for Jupyter notebooks cheatsheet</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/blog/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/screen.css?v=705fd4faf7" />
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/nav.css?v=705fd4faf7" />
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/ap-components-react.min.css?v=705fd4faf7" />
+    <link rel="stylesheet" type="text/css" href="/blog/assets/css/common.aedb5e0647e67750db9b.css?v=705fd4faf7" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/amp/" />
+    
+    <meta property="og:site_name" content="IBM Data Science Experience Blog" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Markdown for Jupyter notebooks cheatsheet" />
+    <meta property="og:description" content="Beautiful graphs in notebooks are great, but I want my explanatory text to look good too! Somehow I can&#x27;t remember all the Markdown tags, so I created this cheatsheet. Here&#x27;s how to format Markdown cells in Jupyter notebooks in the IBM Data Science Experience. Headings: Use #s followed by a" />
+    <meta property="og:url" content="http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/" />
+    <meta property="article:published_time" content="2017-02-07T21:10:03.000Z" />
+    <meta property="article:modified_time" content="2017-02-07T21:10:03.000Z" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Markdown for Jupyter notebooks cheatsheet" />
+    <meta name="twitter:description" content="Beautiful graphs in notebooks are great, but I want my explanatory text to look good too! Somehow I can&#x27;t remember all the Markdown tags, so I created this cheatsheet. Here&#x27;s how to format Markdown cells in Jupyter notebooks in the IBM Data Science Experience. Headings: Use #s followed by a" />
+    <meta name="twitter:url" content="http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Inge Halilovic" />
+    <meta name="twitter:site" content="@IBMDataScience" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "IBM Data Science Experience Blog",
+        "logo": "http://datascience.ibm.com/blog/ghost/img/ghosticon.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Inge Halilovic",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://datascience.ibm.com/blog/content/images/2017/02/inge.jpg",
+            "width": 400,
+            "height": 400
+        },
+        "url": "http://datascience.ibm.com/blog/author/inge/",
+        "sameAs": [],
+        "description": "Content strategist for IBM Data Science Experience. "
+    },
+    "headline": "Markdown for Jupyter notebooks cheatsheet",
+    "url": "http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/",
+    "datePublished": "2017-02-07T21:10:03.000Z",
+    "dateModified": "2017-02-07T21:10:03.000Z",
+    "description": "Beautiful graphs in notebooks are great, but I want my explanatory text to look good too! Somehow I can&#x27;t remember all the Markdown tags, so I created this cheatsheet. Here&#x27;s how to format Markdown cells in Jupyter notebooks in the IBM Data Science Experience. Headings: Use #s followed by a",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://datascience.ibm.com/blog"
+    }
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.11" />
+    <link rel="alternate" type="application/rss+xml" title="IBM Data Science Experience Blog" href="http://datascience.ibm.com/blog/rss/" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.css" rel="stylesheet" />  
+
+<header id="dapNav">
+  <div class="dap-menu-wrapper">
+    <div class="sidemenu-placeholder">
+    </div>
+    <a class="dap-nav-title " href="/">
+      <img class="dap-nav-title-icon" src="https://api.apsportal.ibm.com/v1/nav/graphics/DatasciX.svg">
+      <span class="normal-title">IBM&nbsp;</span>
+      Data Science
+      <span class="normal-title">&nbsp;Experience</span>
+    </a>
+    <div class="dap-secondary-title no-padding "></div>
+    <div class="dap-secondary-links"></div>
+    <div class="dap-nav-features">
+      <a class="log-in" href="http://datascience.ibm.com/auth/blueid/login?context=analytics">Log In</a>
+      <a class="sign-up nav-button" href="http://datascience.ibm.com/signup?context=analytics">Sign Up</a>
+    </div>
+  </div>
+  <div class="header-overlay"></div>
+</header>
+
+    <script type="text/javascript">
+      (function(){
+
+	// Create a queue, but don't obliterate an existing one!
+	var analytics = window.analytics = window.analytics || [];
+
+	// If the real analytics.js is already on the page return.
+	if (analytics.initialize) return;
+
+	// If the snippet was invoked already show an error.
+	if (analytics.invoked) {
+	  if (window.console && console.error) {
+	    console.error('Segment snippet included twice.');
+	  }
+	  return;
+	}
+
+	// Invoked flag, to make sure the snippet
+	// is never invoked twice.
+	analytics.invoked = true;
+
+	// A list of the methods in Analytics.js to stub.
+	analytics.methods = [
+	  'trackSubmit',
+	  'trackClick',
+	  'trackLink',
+	  'trackForm',
+	  'pageview',
+	  'identify',
+	  'reset',
+	  'group',
+	  'track',
+	  'ready',
+	  'alias',
+	  'page',
+	  'once',
+	  'off',
+	  'on'
+	];
+
+	// Define a factory to create stubs. These are placeholders
+	// for methods in Analytics.js so that you never have to wait
+	// for it to load to actually record data. The `method` is
+	// stored as the first argument, so we can replay the data.
+	analytics.factory = function(method){
+	  return function(){
+	    var args = Array.prototype.slice.call(arguments);
+	    args.unshift(method);
+	    analytics.push(args);
+	    return analytics;
+	  };
+	};
+
+	// For each of our methods, generate a queueing stub.
+	for (var i = 0; i < analytics.methods.length; i++) {
+	  var key = analytics.methods[i];
+	  analytics[key] = analytics.factory(key);
+	}
+
+	// Define a method to load Analytics.js from our CDN,
+	// and that will be sure to only ever load it once.
+	analytics.load = function(key){
+	  // Create an async script element based on your key.
+	  var script = document.createElement('script');
+	  script.type = 'text/javascript';
+	  script.async = true;
+	  script.src = ('https:' === document.location.protocol
+	    ? 'https://' : 'http://')
+	    + 'cdn.segment.com/analytics.js/v1/'
+	    + key + '/analytics.min.js';
+
+	  // Insert our script next to the first script element.
+	  var first = document.getElementsByTagName('script')[0];
+	  first.parentNode.insertBefore(script, first);
+	};
+
+	// Add a version to keep track of what's in the wild.
+	analytics.SNIPPET_VERSION = '3.1.0';
+
+	// Load Analytics.js with your key, which will automatically
+	// load the tools you've enabled for your account. Boosh!
+	analytics.load("1iyTirPMAfhrMqGoewxUXeopq4qqje6j");
+
+	// Make the first page call to load the integrations. If
+	// you'd like to manually name or tag the page, edit or
+	// move this call however you'd like.
+	// analytics.page();
+
+      })();
+    </script>
+</head>
+<body class="post-template nav-closed">
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="http://datascience.ibm.com/blog/">Home</a></li>
+            <li class="nav-welcome-to-the-data-science-experience" role="presentation"><a href="http://datascience.ibm.com/blog/welcome-to-the-data-science-experience/">Welcome to the Data Science Experience</a></li>
+    </ul>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Markdown for Jupyter notebooks cheatsheet</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2017-02-07">07 February 2017</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>Beautiful graphs in notebooks are great, but I want my explanatory text to look good too! Somehow I can't remember all the Markdown tags, so I created this cheatsheet.</p>
+
+<p><img src="/blog/content/images/2017/02/notebookshwoingmarkdown-2.png" alt="" /></p>
+
+<p>Here's how to format Markdown cells in Jupyter notebooks in the IBM Data Science Experience.</p>
+
+<p><strong>Headings</strong>: Use #s followed by a blank space for notebook titles and section headings:<br>
+<code>#</code> title <br>
+<code>##</code> major headings <br>
+<code>###</code> subheadings <br>
+<code>####</code> 4th level subheadings<br></p>
+
+<p><strong>Emphasis</strong>: Use this code:
+<strong>Bold</strong>: <code>__string__</code> or <code>**string**</code>
+<em>Italic</em>: <code>_string_</code> or <code>*string*</code></p>
+
+<p><strong>Mathematical symbols</strong>: Use this code: <code>$ mathematical symbols $</code></p>
+
+<p><strong>Monospace font</strong>: surround text with a back single quotation mark. (`) Use monospace for file path and file names and for text users enter or message text users see.</p>
+
+<p><strong>Line breaks</strong>: Sometimes markdown doesn’t make line breaks when you want them. Use this code for a manual line break: <code>&lt;br&gt;</code>. </p>
+
+<p><strong>Colors</strong>: Use this code: <code>&lt;font color=blue|red|green|pink|yellow&gt;Text&lt;/font&gt;</code>
+Not all markdown code works within a font tag, so review your colored text carefully!</p>
+
+<p><strong>Indenting</strong>: Use a greater than sign (<code>&gt;</code>) and then a space, then type the text. Everything is indented until the next carriage return.</p>
+
+<p><strong>Bullets</strong>: Use the dash sign (<code>-</code>  ) with two spaces after it or a space, a dash, and a space ( <code>-</code> ), to create a circular bullet. To create a sub bullet, use a tab followed a dash and two spaces. You can also use an asterisk instead of a dash, and it works the same.</p>
+
+<p><strong>Numbered lists</strong>: Start with <code>1.</code> followed by a space, then it starts numbering for you. Start each line with some number and a period, then a space. Tab to indent to get subnumbering.</p>
+
+<p><strong>Colored note boxes</strong>: Use one of these <code>div</code> tags. Not all markdown code works within a <code>div</code> tag, so review your colored boxes carefully!<br>
+<code>&lt;div class="alert alert-block alert-info"&gt;</code><strong>Tip</strong>: Use blue boxes for Tips and notes. If it’s a note, you don’t have to include the word “Note”.<code>&lt;/div&gt;</code><br>
+<code>&lt;div class="alert alert-block alert-warning"&gt;</code><strong>Example:</strong> Use yellow boxes for examples that are not inside code cells, or use for <strong>mathematical formulas</strong> if needed.<code>&lt;/div&gt;</code><br>
+<code>&lt;div class="alert alert-block alert-success"&gt;</code><strong>Up to you:</strong> Use green boxes sparingly, and only for some specific purpose that the other boxes can't cover.  For example, if you have a lot of related content to link to, maybe you decide to use green boxes for related links from each section of a notebook. <code>&lt;/div&gt;</code><br>
+<code>&lt;div class="alert alert-block alert-danger"&gt;</code><strong>Just don't:</strong> In general, just avoid the red boxes.<code>&lt;/div&gt;</code><br></p>
+
+<p><strong>Graphics</strong>: You can use only graphics that are hosted on the web. You can't add captions for graphics at this time. Use this code: <br><code>&lt;img src="url.gif" alt="Alt text that describes the graphic" title="Title text" /&gt;</code><br></p>
+
+<p><strong>Geometric shapes</strong>: Use this code with a decimal or hex reference number from here: <a href="http://www.w3schools.com/charsets/ref_utf_geometric.asp">UTF-8 Geometric shapes</a><br>
+<code>&amp;#reference_number</code></p>
+
+<p><strong>Horizontal lines</strong>: Use three asterisks: <code>***</code></p>
+
+<p><strong>Internal links</strong>: To link to a section, you need to add an ID for it right above the section title. Use this code: <code>&lt;a id="section_ID"&gt;&lt;/a&gt;</code><br>
+Make sure that the section_ID is unique within the notebook.</p>
+
+<p>Use this code for the link and make sure to test all the links! <code>[section title](#section_ID)</code></p>
+
+<p><strong>External links</strong>: Use this code and test all links!
+<code>__[link text](http://url)__</code></p>
+        </section>
+
+	<script type="text/javascript">
+	  analytics.page('Post: /blog/markdown-for-jupyter-notebooks-cheatsheet/', {
+	    postId: '66',
+	    postClass: 'post',
+	    datePublished: '2017-02-07',
+	    postAuthor: 'Inge Halilovic',
+	    tags: ''
+	  });
+
+	  function disqus_config() {
+	    this.callbacks.onNewComment = [function() { 
+	      analytics.track('Commented');
+	    }];
+	  }
+	</script>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="/blog/author/inge/" style="background-image: url(/blog/content/images/2017/02/inge.jpg)"><span class="hidden">Inge Halilovic's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="/blog/author/inge/">Inge Halilovic</a></h4>
+
+                    <p>Content strategist for IBM Data Science Experience. </p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">San Francisco, California</span>
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=Markdown%20for%20Jupyter%20notebooks%20cheatsheet&amp;url=http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://datascience.ibm.com/blog/markdown-for-jupyter-notebooks-cheatsheet/"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+            <section class="gh-subscribe">
+                <h3 class="gh-subscribe-title">Subscribe to IBM Data Science Experience Blog</h3>
+                <p>Get the latest posts delivered right to your inbox.</p>
+                <form method="post" action="/blog/subscribe/" class="">
+    <input class="confirm" type="hidden" name="confirm"  /><input class="location" type="hidden" name="location"  /><input class="referrer" type="hidden" name="referrer"  />
+
+    <div class="form-group">
+        <input class="subscribe-email" type="email" name="email"  placeholder="Your email address" />
+    </div>
+    <button class="" type="submit">Subscribe</button>
+    <script type="text/javascript">(function(g,h,o,s,t){h[o]('.location')[s]=h[o]('.location')[s] || g.location.href;h[o]('.referrer')[s]=h[o]('.referrer')[s] || h.referrer;})(window,document,'querySelector','value');</script>
+</form>
+
+
+                <span class="gh-subscribe-rss">or subscribe <a href="http://cloud.feedly.com/#subscription/feed/http://datascience.ibm.com/blog/rss/">via RSS</a> with Feedly!</span>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="/blog/connecting-dsx-rstudio-to-on-prem-db2-for-z-os-database/">
+        <section class="post">
+            <h2>Connecting DSX - RStudio to on-prem DB2 for z/OS database</h2>
+            <p>IBM Data Science Experience provides an environment that brings together all of a data scientist's tools into one location.&hellip;</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="/blog/github-project-control/">
+        <section class="post">
+            <h2>Using GitHub for project control in DSX</h2>
+            <p>Try as we might, sometimes our projects don't fit nicely into notebooks. Notebooks are nice for R &amp; D,&hellip;</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://datascience.ibm.com/blog">IBM Data Science Experience Blog</a> &copy; 2017</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js" ></script>
+
+    <script type="text/javascript" src="/blog/assets/js/jquery.fitvids.js?v=705fd4faf7"></script>
+    <script type="text/javascript" src="/blog/assets/js/index.js?v=705fd4faf7"></script>
+
+</body>
+</html>
