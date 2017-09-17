@@ -1,0 +1,17 @@
+
+DATA DESCRIPTION
+
+File: ESP_Wells3.csv
+
+This file contains the Operating characteristics of >1000 ESP's (Submersible pumps)
+that operate on wells in a large field. The data contains values take during *SPOT Inspections.*
+
+The ESP's come in 3 sizes - 4.5, 5.5 and 7 inches.
+
+The intake readings (Pressure, Temperature) and motor readings (Oil temperature, vibration),
+current Leakage (mA) and the ROC Pressure.
+
+The surface temperature of the well is provided, as well as the TDH readings.
+
+Finally, the overall condtion of the ESP based on the inspection is noted 
+as Normal or Failed
